@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1377F91F2B23CE00D7C6B8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1377F81F2B23CE00D7C6B8 /* LoginController.swift */; };
+		3F14FFE41F2C5582003D278B /* DLHamburguerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFE21F2C5582003D278B /* DLHamburguerContainerViewController.swift */; };
+		3F14FFE51F2C5582003D278B /* DLHamburguerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFE31F2C5582003D278B /* DLHamburguerNavigationController.swift */; };
+		3F14FFE71F2C55B7003D278B /* DLHamburguerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFE61F2C55B7003D278B /* DLHamburguerViewController.swift */; };
+		3F14FFEA1F2C5630003D278B /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFE81F2C5630003D278B /* SideMenuVC.swift */; };
+		3F14FFEB1F2C5630003D278B /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFE91F2C5630003D278B /* RootVC.swift */; };
+		3F14FFED1F2C56EE003D278B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFEC1F2C56EE003D278B /* HomeController.swift */; };
+		3F14FFEF1F2C576D003D278B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFEE1F2C576D003D278B /* Utilities.swift */; };
+		3F14FFF11F2D2AF9003D278B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14FFF01F2D2AF9003D278B /* ProfileVC.swift */; };
 		A69563FC1F28CDB300D312BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69563FB1F28CDB300D312BA /* AppDelegate.swift */; };
 		A69563FE1F28CDB300D312BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69563FD1F28CDB300D312BA /* ViewController.swift */; };
 		A69564011F28CDB300D312BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69563FF1F28CDB300D312BA /* Main.storyboard */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1377F81F2B23CE00D7C6B8 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3F14FFE21F2C5582003D278B /* DLHamburguerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerContainerViewController.swift; sourceTree = "<group>"; };
+		3F14FFE31F2C5582003D278B /* DLHamburguerNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerNavigationController.swift; sourceTree = "<group>"; };
+		3F14FFE61F2C55B7003D278B /* DLHamburguerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLHamburguerViewController.swift; sourceTree = "<group>"; };
+		3F14FFE81F2C5630003D278B /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuVC.swift; path = ../SideMenuVC.swift; sourceTree = "<group>"; };
+		3F14FFE91F2C5630003D278B /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootVC.swift; path = ../RootVC.swift; sourceTree = "<group>"; };
+		3F14FFEC1F2C56EE003D278B /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3F14FFEE1F2C576D003D278B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3F14FFF01F2D2AF9003D278B /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		A69563F81F28CDB300D312BA /* Alat_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alat_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69563FB1F28CDB300D312BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A69563FD1F28CDB300D312BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +82,15 @@
 				A69564021F28CDB300D312BA /* Assets.xcassets */,
 				A69564041F28CDB300D312BA /* LaunchScreen.storyboard */,
 				A69564071F28CDB300D312BA /* Info.plist */,
+				3F1377F81F2B23CE00D7C6B8 /* LoginController.swift */,
+				3F14FFE21F2C5582003D278B /* DLHamburguerContainerViewController.swift */,
+				3F14FFE31F2C5582003D278B /* DLHamburguerNavigationController.swift */,
+				3F14FFE61F2C55B7003D278B /* DLHamburguerViewController.swift */,
+				3F14FFEE1F2C576D003D278B /* Utilities.swift */,
+				3F14FFE81F2C5630003D278B /* SideMenuVC.swift */,
+				3F14FFE91F2C5630003D278B /* RootVC.swift */,
+				3F14FFEC1F2C56EE003D278B /* HomeController.swift */,
+				3F14FFF01F2D2AF9003D278B /* ProfileVC.swift */,
 			);
 			path = Alat_V2;
 			sourceTree = "<group>";
@@ -148,8 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F14FFF11F2D2AF9003D278B /* ProfileVC.swift in Sources */,
 				A69563FE1F28CDB300D312BA /* ViewController.swift in Sources */,
+				3F14FFE51F2C5582003D278B /* DLHamburguerNavigationController.swift in Sources */,
+				3F14FFEF1F2C576D003D278B /* Utilities.swift in Sources */,
+				3F14FFE71F2C55B7003D278B /* DLHamburguerViewController.swift in Sources */,
+				3F1377F91F2B23CE00D7C6B8 /* LoginController.swift in Sources */,
+				3F14FFED1F2C56EE003D278B /* HomeController.swift in Sources */,
+				3F14FFE41F2C5582003D278B /* DLHamburguerContainerViewController.swift in Sources */,
 				A69563FC1F28CDB300D312BA /* AppDelegate.swift in Sources */,
+				3F14FFEB1F2C5630003D278B /* RootVC.swift in Sources */,
+				3F14FFEA1F2C5630003D278B /* SideMenuVC.swift in Sources */,
 				A69564101F28FA7D00D312BA /* GetStartedLoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +352,7 @@
 				A695640C1F28CDB300D312BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
