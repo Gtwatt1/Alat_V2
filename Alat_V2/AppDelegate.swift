@@ -16,14 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let homeController = HomeController(collectionViewLayout: UICollectionViewFlowLayout())
+        let homeController = AccountOverviewController() //HomeController(collectionViewLayout: UICollectionViewFlowLayout())
         let contentController = UINavigationController(rootViewController: homeController)
         let menuVC =   SideMenuVC(collectionViewLayout: UICollectionViewFlowLayout())
         let rootViewController = RootVC(contentViewController: contentController, menuViewController: menuVC)
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = ProfileVC()
+        window?.rootViewController =  rootViewController//RegistrationController()//ProfileVC()
         return true
     }
 

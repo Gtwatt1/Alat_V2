@@ -93,7 +93,7 @@ class ProfileVC : UIViewController{
         
         
         profileImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        profileImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 32).isActive = true
+        profileImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
         profileImage.widthAnchor.constraint(equalToConstant: 64).isActive = true
         profileImage.heightAnchor.constraint(equalToConstant: 64).isActive = true
         

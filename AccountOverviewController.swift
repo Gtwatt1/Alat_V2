@@ -10,6 +10,15 @@ import UIKit
 
 class AccountOverviewController: UIViewController {
     
+    
+//    let transactionCollectionView : UICollectionView = {
+//        let tc = UICollectionView()
+//        tc.translatesAutoresizingMaskIntoConstraints = false
+//        tc.delegate = self
+//        tc.dataSource = self
+//        return tc
+//    }()
+    
     //      MARK: NavBar Items
     let navBarContainer: UIView = {
         let view = UIView()
@@ -186,6 +195,17 @@ class AccountOverviewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let menuImage = UIImage(named: "menu_icon")?.withRenderingMode(.alwaysOriginal)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: menuImage, style: .plain, target: self, action: #selector(handleMenu))
+        
+        let contactImage = UIImage(named: "identityIcon")?.withRenderingMode(.alwaysOriginal)
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: contactImage, style: .plain, target: self, action: #selector(handleProfile))
+        
+        
+        
+        navigationItem.title = "Account OverView"
+        navigationController?.navigationBar.barTintColor = Utilities.getColorWithHexString("#BE3623")
         
         //Adds the container for holding all navBar items to main view
         view.addSubview(navBarContainer)

@@ -33,11 +33,15 @@ extension AccountOverviewController {
     }
     
     func handleMenu() {
+        self.findHamburguerViewController()?.showMenuViewController()
         print("Menu clicked")
     }
     
     
     func handleProfile() {
+        let profileController = ProfileVC()
+        navigationController?.pushViewController(profileController, animated: true)
+//        present(profileController, animated: true, completion: nil)
         print("profile button clicked")
     }
     
